@@ -1,16 +1,46 @@
 [project]
-name = "projectdelta"
+name = "ProjectDelta"
 version = "0.1.0"
-description = ""
+description = "A platform that empowers users to efficiently access, explore, and manage exam questions, answer keys, and tests from vestibular and military entrance exams, combining a powerful FastAPI backend with a seamless, user-friendly frontend experience."
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Danilo Santos",email = "mouradanilo061@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<4.0"
 dependencies = [
+    "fastapi[all] (>=0.115.12,<0.116.0)",
+    "beanie (>=1.29.0,<2.0.0)"
 ]
 
+[tool.ruff]
+line-length = 79
+extend-exclude = ["migrations"]
+
+[tool.ruff.lint]
+preview = true
+select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+
+[tool.ruff.format]
+preview = true
+quote-style = 'single'
+
+[tool.pytest.ini_options]
+pythonpath = '.'
+addopts = "-p no:warning"
+
+[tool.taskipy.tasks]
+lint = 'ruff check'
+format = 'ruff format'
+test = 'pytest -s -x --cov= -vv'
+run = 'fastapi dev api/main.py'
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.14.1"
+ruff = "^0.11.11"
+pytest = "^8.3.5"
+pytest-cov = "^6.1.1"
+
