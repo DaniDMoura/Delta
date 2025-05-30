@@ -4,5 +4,10 @@ router = APIRouter()
 
 
 @router.get('/')
-def gerar():
-    return {'ola': 'mundo'}
+def list_questions():
+    ...
+
+
+@router.get('/')
+def list_question():
+    ...
