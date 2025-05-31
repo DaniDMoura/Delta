@@ -1,0 +1,3 @@
+[submodule "Vestiparse"]
+	path = Vestiparse
+	url = https://github.com/DaniDMoura/Vestiparse.git
