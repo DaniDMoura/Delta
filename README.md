@@ -1,6 +1,5 @@
 <div align="center">
   <img width="256" src="assets/logo.png">
-  <br>
   <p>Unified API for Brazilian academic and military assessments. ⚙️</p>
   <p>Delta provides structured access to questions, answer keys, and metadata from major Brazilian academic and military exams.</p>
 </div>
