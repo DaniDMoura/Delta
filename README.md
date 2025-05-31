@@ -1,4 +1,4 @@
-<div style="text-align:center">
+<div align="center">
   <img src="assets/logo.png">
   <br>
   <p>Unified API for Brazilian academic and military assessments. ⚙️</p>
@@ -25,7 +25,7 @@ Your support is truly appreciated!
 ```bash
 git clone https://github.com/your-username/project-delta.git
 cd project-delta
-poetry install  
+poetry install
 ```
 
 Configure your `.env` or environment variables:
