@@ -42,8 +42,7 @@ DATABASE_URL=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/delta?retryWr
 Run the development server:
 
 ```bash
-poetry shell
-task run
+poetry run task run
 ```
 
 ## Contributing 🤝
