@@ -9,5 +9,4 @@ router = APIRouter()
 def list_exam(
     institutions: Annotated[list[str] | None, Query()] = None,
     years: Annotated[list[int] | None, Query()] = None,
-):
-    ...
+): ...

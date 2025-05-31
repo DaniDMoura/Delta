@@ -6,8 +6,6 @@ router = APIRouter()
 
 
 @router.post('/')
-def generate_simulado(number_of_questions: int,
-                      institution: Optional[str],
-                      year: Optional[str]
-                      ):
-    ...
+def generate_simulado(
+    number_of_questions: int, institution: Optional[str], year: Optional[str]
+): ...
