@@ -8,7 +8,7 @@
 # Delta
 
 
-[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge\&logo=GitHub-Sponsors\&logoColor=#EA4AAA)](https://github.com/sponsors/DaniDMoura)  [![Instagram](https://img.shields.io/badge/Instagram-30363D?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/danilosmoura_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-30363D?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU_USUARIO)
+[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge\&logo=GitHub-Sponsors\&logoColor=#EA4AAA)](https://github.com/sponsors/DaniDMoura)  [![Instagram](https://img.shields.io/badge/Instagram-30363D?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/danilosmoura_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-30363D?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danilosantos-moura)
 
 
 
