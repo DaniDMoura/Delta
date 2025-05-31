@@ -2,12 +2,17 @@
   <img src="assets/logo.png">
   <br>
   <p>Unified API for Brazilian academic and military assessments. ⚙️</p>
-  <p>Project Delta provides structured access to questions, answer keys, and metadata from major Brazilian academic and military exams.</p>
+  <p>Delta provides structured access to questions, answer keys, and metadata from major Brazilian academic and military exams.</p>
 </div>
 
-# Project Delta
+# Delta
 
-[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge\&logo=GitHub-Sponsors\&logoColor=#EA4AAA)](https://github.com/sponsors/DaniDMoura)
+
+[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge\&logo=GitHub-Sponsors\&logoColor=#EA4AAA)](https://github.com/sponsors/DaniDMoura)  [![Instagram](https://img.shields.io/badge/Instagram-30363D?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/danilosmoura_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-30363D?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU_USUARIO)
+
+
+
+
 
 Also please don't forget to click that star button! 🌟
 Your support is truly appreciated!

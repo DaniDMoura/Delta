@@ -24,7 +24,7 @@ async def lifespan(app: FastAPI):
     client.close()
 
 
-app = FastAPI(title='Project Delta – API de Vestibulares e Concursos'
+app = FastAPI(title='Delta – API de Vestibulares e Concursos'
               , lifespan=lifespan)
 
 
