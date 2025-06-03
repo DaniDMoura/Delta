@@ -1,0 +1,7 @@
+services:
+  app:
+    image: delta
+    restart: unless-stopped
+    build: .
+    ports:
+      - "8000:8000"

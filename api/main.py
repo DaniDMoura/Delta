@@ -2,6 +2,7 @@ from contextlib import asynccontextmanager
 
 from beanie import init_beanie
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from motor.motor_asyncio import AsyncIOMotorClient
 
 from .settings import Settings
@@ -26,6 +27,8 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title='Delta – API de Vestibulares e Concursos'
               , lifespan=lifespan)
+
+app.mount("/static", StaticFiles(directory="assets"), name="static")
 
 
 app.include_router(
