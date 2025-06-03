@@ -28,7 +28,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title='Delta – API de Vestibulares e Concursos'
               , lifespan=lifespan)
 
-app.mount("/static", StaticFiles(directory="assets"), name="static")
+app.mount("/static", StaticFiles(directory="public"), name="static")
 
 
 app.include_router(
