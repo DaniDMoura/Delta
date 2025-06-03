@@ -11,14 +11,11 @@ from .v1.routes import exams as v1_exams
 from .v1.routes import institutions as v1_institutions
 from .v1.routes import questions as v1_questions
 from .v1.routes import simulado as v1_simulado
-import requests
-import logging
+
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    ip = requests.get("https://api.ipify.org", timeout=5).text
-    logging.warning(f"IP público da aplicação (para Atlas): {ip}")
     client = AsyncIOMotorClient(Settings().DATABASE_URL)
     db = client.delta
     await init_beanie(database=db, document_models=[Institution,
