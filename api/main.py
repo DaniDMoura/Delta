@@ -13,7 +13,6 @@ from .v1.routes import questions as v1_questions
 from .v1.routes import simulado as v1_simulado
 
 
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     client = AsyncIOMotorClient(Settings().DATABASE_URL)
@@ -27,7 +26,8 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title='Delta – API de Vestibulares e Concursos'
-              , lifespan=lifespan)
+              , lifespan=lifespan
+              , docs_url=None)
 
 app.mount("/static", StaticFiles(directory="public"), name="static")
 
